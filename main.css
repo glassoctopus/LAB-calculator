@@ -1,0 +1,59 @@
+body {
+  background-color: lightgreen;
+}
+
+
+
+button {
+  font-size: 33px;
+  width: 65px;
+  min-width: 65px;
+  height: 65px;
+  min-height: 65px;
+  margin: -3px;
+  margin-left: -1px;
+  margin-right: -1px;
+  border: 0px;
+}
+
+.mainContainer {
+  font-size: 0;
+  margin: auto;
+  background-color: black;
+  width: 50%;
+  height: 50%;
+  padding: 0px;
+  border: 1px solid white;
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 424px;
+  max-height: 424px;
+}
+
+.btnNumb {
+  color: black;
+  border: 1px solid black;
+  background-color: #d8d9db;
+}
+
+.btnNumb:active {
+  background-color: #bbbcbe;
+}
+
+.btnNumb:hover {
+  background-color: #ebebeb;
+}
+
+.btnFunc {
+  color: white;
+  border: 1px solid black;
+  background-color: #df974c;
+}
+
+.btnFunc:active {
+  background-color: #dd8d37;
+}
+
+.btnFunc:hover {
+  background-color: #dfb07e;
+}
