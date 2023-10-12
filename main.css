@@ -2,8 +2,6 @@ body {
   background-color: lightgreen;
 }
 
-
-
 button {
   font-size: 33px;
   width: 65px;
@@ -22,12 +20,21 @@ button {
   background-color: black;
   width: 50%;
   height: 50%;
-  padding: 0px;
+  padding: 1px;
   border: 1px solid white;
-  min-width: 300px;
-  max-width: 300px;
-  min-height: 424px;
-  max-height: 424px;
+  min-width: 252px;
+  max-width: 252px;
+  min-height: 363`px;
+  max-height: 366px;
+}
+
+.displayScreen{
+  border: 1px solid white;
+  min-width: 252px;
+  max-width: 252px;
+  background-color: black;
+  min-height: 65px;
+  max-height: 65px;
 }
 
 .btnNumb {
@@ -42,6 +49,20 @@ button {
 
 .btnNumb:hover {
   background-color: #ebebeb;
+}
+
+.btnClear{
+  min-width: 128px;
+  max-width: 128px;
+  min-height: 65px;
+  max-height: 65px; 
+}
+
+.btnZero{
+  min-width: 191px;
+  max-width: 191px;
+  min-height: 65px;
+  max-height: 65px;
 }
 
 .btnFunc {
