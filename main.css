@@ -39,6 +39,21 @@ body {
   max-height: 100px;
 }
 
+/* form .display{
+  display: flex;
+  justify-content: flex-end;
+  margin: none;
+} */
+
+form .display input{
+  margin: 3%;
+  background-color: black;
+  color: white;
+  text-align: right;
+  flex: 1;
+  font-size: 30px;
+}
+
 .subDisp {
   font-size: 33px;
   min-height: 95px;
